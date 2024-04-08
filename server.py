@@ -40,3 +40,9 @@ def submit_form():
             return 'did not save to database'
     else:
         return 'something went wrong, try again'
+
+
+# Run the server
+if __name__ == '__main__':
+    app.run(debug=True)
+
